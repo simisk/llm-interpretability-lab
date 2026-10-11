@@ -1,0 +1,20 @@
+
+name: llm-lab
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.11
+  - pip
+  - ipykernel
+  - jupyterlab
+  - numpy
+  - pandas
+  - matplotlib
+  - pip:
+      - torch
+      - transformers
+      - accelerate
+      - safetensors
+      - sentencepiece
